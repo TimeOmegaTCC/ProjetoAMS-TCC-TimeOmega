@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/96e60b07bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="">Combo</a>
+      <div class="search-box">
+        <input
+          class="search-textbox"
+          type="text"
+          name=""
+          placeholder="Faça sua Busca..."
+        />
+        <a class="search-button" href="#">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+      <ul class="nav-list">
+        <li><a class="text" href="">Início</a></li>
+        <li>
+          <div ngbDropdown class="d-inline-block">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              id="dropdownBasic1"
+              ngbDropdownToggle
+            >
+              Categorias
+            </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button ngbDropdownItem routerLink="/categoriacomputador">Computadores</button>
+              <hr />
+              <button ngbDropdownItem routerLink="/categorianotebook">Notebook</button>
+              <hr />
+              <button ngbDropdownItem>Periferícos</button>
+              <hr />
+              <button ngbDropdownItem>Acessórios</button>
+              <hr />
+              <button ngbDropdownItem>SSD / HD / RAM</button>
+              <hr />
+              <button ngbDropdownItem>Placa Mãe</button>
+              <hr />
+              <button ngbDropdownItem>Refrigeração</button>
+              <hr />
+              <button ngbDropdownItem>Fontes</button>
+              <hr />
+              <button ngbDropdownItem>Processadores</button>
+              <hr />
+              <button ngbDropdownItem>Placa de Vídeo</button>
+              <hr />
+              <button ngbDropdownItem>Outros</button>
+              <hr />
+            </div>
+          </div>
+        </li>
+        <li><a routerLink="/#" routerLinkActive="selected">Promoções</a></li>
+        <li>
+          <a routerLink="/sac" routerLinkActive="selected"
+            ><div class="sac">Atendimento(SAC)</div></a
+          >
+        </li>
+      </ul>
+
+      <a class="carrinho" routerLink="/#" routerLinkActive="selected">
+        <i class="fa-solid fa-cart-shopping"> Carrinho</i>
+      </a>
+
+      <a class="User">
+        <i
+          class="fa-regular fa-circle-user"
+          routerLink="/singup"
+          routerLinkActive="selected"
+        >
+          <div class="button">Entrar/Logar</div></i
+        >
+      </a>
+    </nav>
+  </body>
+</html>
