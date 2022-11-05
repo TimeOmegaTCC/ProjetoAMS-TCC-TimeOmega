@@ -9,6 +9,7 @@ import { MatDialogModule, MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angu
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,6 +39,26 @@ import { DialogProviderComponent } from './components/sistema-crud/crud-provider
 import { SlidecategoryComponent } from './components/categorias/slidecategory/slidecategory.component';
 import { ComputadoresComponent } from './components/categorias/computadores/computadores.component';
 import { NotebookComponent } from './components/categorias/notebook/notebook.component';
+import { FonesComponent } from './components/categorias/perifericos/fones/fones.component';
+import { TecladoComponent } from './components/categorias/perifericos/teclado/teclado.component';
+import { MouseComponent } from './components/categorias/perifericos/mouse/mouse.component';
+import { PerifericosComponent } from './components/categorias/perifericos/perifericos.component';
+import { ApoiodepulsoComponent } from './components/categorias/acessorios/apoiodepulso/apoiodepulso.component';
+import { SuportesComponent } from './components/categorias/acessorios/suportes/suportes.component';
+import { CabosComponent } from './components/categorias/acessorios/cabos/cabos.component';
+import { AcessoriosComponent } from './components/categorias/acessorios/acessorios.component';
+import { ArmazenamentoComponent } from './components/categorias/armazenamento/armazenamento.component';
+import { SsdComponent } from './components/categorias/armazenamento/ssd/ssd.component';
+import { HdComponent } from './components/categorias/armazenamento/hd/hd.component';
+import { RamComponent } from './components/categorias/armazenamento/ram/ram.component';
+import { PlacaMaeComponent } from './components/categorias/placa-mae/placa-mae.component';
+import { FontesComponent } from './components/categorias/fontes/fontes.component';
+import { ProcessadoresComponent } from './components/categorias/processadores/processadores.component';
+import { PlacadevideoComponent } from './components/categorias/placadevideo/placadevideo.component';
+import { OutrosComponent } from './components/categorias/outros/outros.component';
+import { RefrigeracaoComponent } from './components/categorias/refrigeracao/refrigeracao.component';
+import { PastatermicaComponent } from './components/categorias/refrigeracao/pastatermica/pastatermica.component';
+import { CoolerComponent } from './components/categorias/refrigeracao/cooler/cooler.component';
 
 @NgModule({
   declarations: [
@@ -63,6 +84,26 @@ import { NotebookComponent } from './components/categorias/notebook/notebook.com
     SlidecategoryComponent,
     ComputadoresComponent,
     NotebookComponent,
+    FonesComponent,
+    TecladoComponent,
+    MouseComponent,
+    PerifericosComponent,
+    ApoiodepulsoComponent,
+    SuportesComponent,
+    CabosComponent,
+    AcessoriosComponent,
+    ArmazenamentoComponent,
+    SsdComponent,
+    HdComponent,
+    RamComponent,
+    PlacaMaeComponent,
+    FontesComponent,
+    ProcessadoresComponent,
+    PlacadevideoComponent,
+    OutrosComponent,
+    RefrigeracaoComponent,
+    PastatermicaComponent,
+    CoolerComponent
   ],
   imports: [
     BrowserModule,
@@ -81,6 +122,11 @@ import { NotebookComponent } from './components/categorias/notebook/notebook.com
     MatSortModule,
     MatSelectModule,
   ],
+
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

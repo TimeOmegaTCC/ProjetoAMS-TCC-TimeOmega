@@ -28,4 +28,41 @@ export class NavbarComponent implements OnInit {
   notebook(){
     this.route.navigate(["/categorianotebook"])
   }
+
+  perifericos(){
+    this.route.navigate(["/categoriaperifericos"])
+  }
+
+  acessorios(){
+    this.route.navigate(["/categoriaacessorio"])
+  }
+
+  armazenamento(){
+    this.route.navigate(["/categoriaarmazenamento"])
+  }
+
+  placamae(){
+    this.route.navigate(["/categoriaplacamae"])
+  }
+
+  refrigeracao(){
+    this.route.navigate(["/categoriarefrigeracao"])
+  }
+
+  fontes(){
+    this.route.navigate(["/categoriafontes"])
+  }
+
+  processadores(){
+    this.route.navigate(["/categoriaprocessadores"])
+  }
+
+  placadevideo(){
+    this.route.navigate(["/categoriaplacadevideo"])
+  }
+
+  outros(){
+    this.route.navigate(["/categoriaoutros"])
+  }
 }
+
