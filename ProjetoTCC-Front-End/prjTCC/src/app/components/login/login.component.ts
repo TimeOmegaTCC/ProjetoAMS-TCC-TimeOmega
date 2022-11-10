@@ -46,8 +46,6 @@ export class LoginComponent implements OnInit {
       if(user){
         this.loginForm.reset();
         this.router.navigate(['/admin'])
-      }else{
-        alert("Usúario ou Senha inválido");
       }
     }, err=>{
       alert("Não foi possivel realizar")
