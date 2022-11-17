@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { ApiService } from 'src/app/components/sistema-crud/services/api.service';
-
+import { CartService } from 'src/app/components/sistema-crud/services/cart.service';
+import { CarrinhoComponent } from '../carrinho/carrinho.component';
 @Component({
   selector: 'app-produtos',
   templateUrl: './produtos.component.html',
@@ -13,7 +14,7 @@ filterCategory: any;
 searchKey:string ="";
 public searchTerm: string = "";
 public searchT = new BehaviorSubject<string>("");
-  constructor(private api : ApiService) { }
+  constructor(private api : ApiService, private cartService : CartService) { }
 
   ngOnInit(): void {
     this.api.getProduct()
@@ -49,5 +50,7 @@ filter(category: string) {
       }
     })
 }
-
+addtocart(item: any){
+  this.cartService.addtoCart(item);
+}
 }

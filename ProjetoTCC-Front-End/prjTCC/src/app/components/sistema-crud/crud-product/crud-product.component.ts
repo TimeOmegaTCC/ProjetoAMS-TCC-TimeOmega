@@ -101,8 +101,3 @@ export class CrudProductComponent implements OnInit {
       )
   }
 }
-
-
-
-
-

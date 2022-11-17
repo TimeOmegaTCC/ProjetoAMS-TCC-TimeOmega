@@ -11,6 +11,8 @@
       <input formControlName="description" matInput placeholder="Name" />
     </mat-form-field>
 
+
+
     <mat-form-field appearance="fill">
       <mat-label>Categoria</mat-label>
       <mat-select name="food" formControlName="idCategory">
@@ -19,7 +21,7 @@
           </mat-option>
       </mat-select>
   </mat-form-field>
-
+  
   <mat-form-field appearance="outline">
     <mat-label>Quantidade do Produto</mat-label>
     <input type="number" formControlName="amount" matInput placeholder="Quantidade" />
@@ -30,7 +32,9 @@
     <input type="number" formControlName="price" matInput placeholder="Preço R$" />
   </mat-form-field>
 
-  
+  <input type="file" formControlName="urlImage" placeholder="Busque sua imagem..." (change)="inputChanges($any($event.target).files)"/>
+
+
   </form>
 </div>
 <div mat-dialog-action [align]="'end'">

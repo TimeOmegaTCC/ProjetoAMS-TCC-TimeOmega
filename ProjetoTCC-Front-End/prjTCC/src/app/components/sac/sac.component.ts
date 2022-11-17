@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-sac',
+  selector: 'sac',
   templateUrl: './sac.component.html',
-  styleUrls: ['./sac.component.css']
+  styleUrls: ['./sac.component.css'],
 })
 export class SACComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit(): void {
+  constructor() {}
+
+  ngOnInit() {
+
   }
+
 }

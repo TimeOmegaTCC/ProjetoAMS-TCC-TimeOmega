@@ -10,6 +10,7 @@ import { CrudProductComponent } from './components/sistema-crud/crud-product/cru
 import { CrudClientComponent } from './components/sistema-crud/crud-client/crud-client.component';
 import { CrudProviderComponent } from './components/sistema-crud/crud-provider/crud-provider.component';
 import { ProdutosComponent } from './components/produtos/produtos.component';
+import { CarrinhoComponent } from './components/carrinho/carrinho.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,8 @@ const routes: Routes = [
   {path:'adminclient', component: CrudClientComponent},
   {path:'adminprovider', component: CrudProviderComponent},
   {path:'produtos', component: ProdutosComponent},
+  {path:'carrinho', component: CarrinhoComponent},
+
 ];
 
 @NgModule({

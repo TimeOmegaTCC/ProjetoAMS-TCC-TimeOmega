@@ -41,13 +41,13 @@ export class DialogProviderComponent implements OnInit{
       this.api.postProvider(this.providerForm.value)
       .subscribe({
         next:(res)=>{
-          alert("Categoria adicionada com sucesso");
+          alert("Fornecedor adicionada com sucesso");
           this.providerForm.reset();
           this.dialogRef.close('Salvo');
           this.getProvider();
         },
         error:()=>{
-          alert("Erro não foi possivel adicionar a categoria")
+          alert("Erro não foi possivel adicionar o Fornecedor")
         }
       })
      }
@@ -60,12 +60,12 @@ export class DialogProviderComponent implements OnInit{
     this.api.putProvider(this.providerForm.value,this.editData.id)
     .subscribe({
       next:(res)=>{
-        alert("Categoria atualizada com sucesso");
+        alert("Fornecedor atualizada com sucesso");
         this.dialogRef.close('Atualizado'),
         this.getProvider
       },
       error:()=>{
-        alert("Erro não foi possivel atualizar a categoria")
+        alert("Erro não foi possivel atualizar o Fornecedor")
       }
     })
   }

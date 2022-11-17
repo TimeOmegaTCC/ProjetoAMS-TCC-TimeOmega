@@ -13,17 +13,7 @@
   <body>
     <nav>
       <a class="logo" href="">Combo</a>
-      <div class="search-box">
-        <input
-          class="search-textbox"
-          type="text"
-          name=""
-          placeholder="Faça sua Busca..."
-        />
-        <a class="search-button" href="#">
-          <i class="fas fa-search"></i>
-        </a>
-      </div>
+
       <ul class="nav-list">
         <li><a class="text" href="">Início</a></li>
         <li><a routerLink="/produtos" routerLinkActive="selected">Produtos</a></li>
@@ -34,19 +24,21 @@
         </li>
       </ul>
 
-      <a class="carrinho" routerLink="/#" routerLinkActive="selected">
-        <i class="fa-solid fa-cart-shopping"> Carrinho</i>
-      </a>
+      <button routerLink="/carrinho"style="background: none; border:none; color:aliceblue; " class="byn btn-primary">
+        <i style="font-size: 35px; padding: 5px;" class="fas fa-cart-plus"></i>
+        <div style="font-size: 20px;" class="badge bg-danger">{{totalItem}}</div>
+      </button>
 
-      <a class="User">
-        <i
-          class="fa-regular fa-circle-user"
-          routerLink="/singup"
-          routerLinkActive="selected"
-        >
-          <div class="button">Entrar/Logar</div></i
-        >
-      </a>
+      <a style="font-size: 20px; opacity: 100;" class="User">
+        <div class="icone">
+        <div class="con">
+          <i style ="font-size: 20px;"class="fa-regular fa-circle-user"><br>
+          <p>Fazer <a routerLink="/login" style="margin-bottom: - 15px; color: #4aa4ee">login</a> ou<br><p><a routerLink="/singup" style="margin-top: 5px; color: #4aa4ee">Cadastrar-se</a></p>
+      </i>
+    </div>
+        </div>
+        </a>
+
     </nav>
   </body>
 </html>

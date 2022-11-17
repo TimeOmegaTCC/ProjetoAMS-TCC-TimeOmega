@@ -346,10 +346,16 @@ F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.
 F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\scopedcss\bundle\Application.styles.css
 F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
 F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.dll
-F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\refint\Application.dll
 F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.pdb
 F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
 F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\ref\Application.dll
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.MvcApplicationPartsAssemblyInfo.cs
+E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.MvcApplicationPartsAssemblyInfo.cache
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\appsettings.Development.json
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\appsettings.json
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\Application.exe
@@ -401,13 +407,6 @@ E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\InfraData.pdb
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\Domain.pdb
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\Service.pdb
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.MvcApplicationPartsAssemblyInfo.cs
-E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.MvcApplicationPartsAssemblyInfo.cache
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\staticwebassets.build.json
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\staticwebassets.development.json
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\scopedcss\bundle\Application.styles.css
@@ -416,3 +415,4 @@ E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\ref\Application.dll
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.pdb
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
+F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Application\bin\Debug\net6.0\ref\Application.dll

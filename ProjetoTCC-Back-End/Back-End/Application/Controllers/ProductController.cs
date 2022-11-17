@@ -24,6 +24,7 @@ namespace Application.Controllers
         {
 
             var product1 = this.Mapper.Map<Product>(product);
+            product1.urlImage = "assets/" + Path.GetFileName(product.urlImage);
 
             this.Service.Add(product1);
 
@@ -58,6 +59,7 @@ namespace Application.Controllers
            var entity = await this.Service.GetById(Id);
             if (entity == null) return NotFound();
             
+            model.urlImage = "assets/" + Path.GetFileName(model.urlImage);
             this.Mapper.Map(model, entity);
             this.Service.Update (entity);
             if (await this.Service.SaveChangesAsync())

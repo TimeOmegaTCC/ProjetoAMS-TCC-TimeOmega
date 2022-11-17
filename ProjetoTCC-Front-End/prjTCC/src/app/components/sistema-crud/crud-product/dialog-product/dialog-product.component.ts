@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ApiService } from 'src/app/components/sistema-crud/services/api.service';
+import { Subscriber } from 'rxjs';
 @Component({
   selector: 'app-dialog',
   templateUrl: './dialog-product.component.html',
@@ -13,6 +14,7 @@ export class DialogProductComponent implements OnInit{
   public categories!: Categoria[];
   productForm !: FormGroup;
   actionBtn : string = "Salvar"
+  arquivoSelecionado!: File | null
   public idSelect! : string;
   constructor(private formBuilder : FormBuilder,
     private api : ApiService,
@@ -27,6 +29,7 @@ export class DialogProductComponent implements OnInit{
       idCategory : ['', Validators.required],
       amount : ['', Validators.required],
       price : ['', Validators.required],
+      urlImage : [''],
     });
     console.log(this.editData);
     if(this.editData){
@@ -36,6 +39,8 @@ export class DialogProductComponent implements OnInit{
       this.productForm.controls['idCategory'].setValue(this.editData.idCategory);
       this.productForm.controls['amount'].setValue(this.editData.amount);
       this.productForm.controls['price'].setValue(this.editData.price);
+      this.productForm.controls['urlImage'].setValue(this.editData.urlImage);
+      this.getProducts
     }
   }
 
@@ -99,5 +104,25 @@ export class DialogProductComponent implements OnInit{
         },
 
       )
+  }
+
+  inputChanges(files : FileList) {
+    console.log(files);
+    console.log(files.item(0))
+    console.log(files.item(0)?.name)
+
+    this.arquivoSelecionado =files.item(0);
+    this.api.enviarArquivo(this.arquivoSelecionado)
+
+    .subscribe(
+      nomeArquivo => {
+        this.productForm.value.urlImage = nomeArquivo;
+        console.log('nomeArquivo');
+        console.log(nomeArquivo);
+      },
+      e =>{
+        console.log(e.error);
+      }
+    )
   }
 }

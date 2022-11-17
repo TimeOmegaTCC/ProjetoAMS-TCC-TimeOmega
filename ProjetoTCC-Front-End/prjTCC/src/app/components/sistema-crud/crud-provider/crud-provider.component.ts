@@ -75,11 +75,11 @@ export class CrudProviderComponent implements OnInit {
     this.api.deleteProvider(id)
     .subscribe({
       next:(res)=>{
-        alert("Categoria deletada com sucesso");
+        alert("Fornecedor deletada com sucesso");
         this.getAllProviders();
       },
       error:()=>{
-        alert("Não foi possivel deletar a categoria")
+        alert("Não foi possivel deletar o Fornecedor")
       }
     })
   }

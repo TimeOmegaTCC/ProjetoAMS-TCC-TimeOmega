@@ -108,7 +108,7 @@ namespace InfraData.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("UrlImage")
+                    b.Property<string>("urlImage")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
