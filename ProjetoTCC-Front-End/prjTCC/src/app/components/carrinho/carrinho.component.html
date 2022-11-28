@@ -32,7 +32,7 @@
                 <td colspan="4"></td>
                 <td><button (click)="emptycart()" class="btn btn-danger">Esvaziar</button></td>
                 <td><button routerLink="/produtos" class="btn btn-primary"> Produtos</button></td>
-                <td><button class="btn btn-success">Checkout</button></td>
+                <td><button class="btn btn-success" (click)="openDialog()">Pagar</button></td>
                 <td><strong>Total : R${{grandTotal}}</strong></td>
             </tr>
               </tbody>

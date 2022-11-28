@@ -40,10 +40,15 @@
           <hr />
           <button ngbDropdownItem  (click)="filter('')">Todos os Produtos</button>
         </div>
+        
       </div>
       </div>
     <div class="row">
+
+
+
     <ng-container *ngFor="let item of filterCategory | filter:searchKey:'idCategory'">
+
   <div class="card">
   <div class="imgBx">
     <img
@@ -58,6 +63,7 @@
     <a class="buy"(click)=addtocart(item) routerLink="/carrinho">Adicionar ao Carrinho</a>
   </div>
 </div>
+
 </ng-container>
 </div>
   </div>

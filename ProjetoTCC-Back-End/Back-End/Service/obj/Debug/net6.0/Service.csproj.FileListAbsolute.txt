@@ -99,4 +99,4 @@ E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Service\obj\Debug\net6.0\Se
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Service\obj\Debug\net6.0\Service.dll
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Service\obj\Debug\net6.0\ref\Service.dll
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Service\obj\Debug\net6.0\Service.pdb
-F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Service\bin\Debug\net6.0\ref\Service.dll
+F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Service\obj\Debug\net6.0\refint\Service.dll

@@ -22,7 +22,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { LoginComponent } from './components/login/login.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
-import { SACComponent } from './components/sac/sac.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavAdmComponent } from 'src/app/components/sistema-crud/nav-adm/nav-adm.component';
 import { CrudCategoryComponent } from 'src/app/components/sistema-crud/crud-category/crud-category.component';
@@ -38,6 +37,8 @@ import { DialogProviderComponent } from './components/sistema-crud/crud-provider
 import { ProdutosComponent } from './components/produtos/produtos.component';
 import { FilterPipe } from './shared/filter.pipe';
 import { CarrinhoComponent } from './components/carrinho/carrinho.component';
+import { DialogFinishbuyComponent } from './components/carrinho/dialog-finishbuy/dialog-finishbuy.component';
+import { FinishBuyComponent } from './components/carrinho/finish-buy/finish-buy.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,6 @@ import { CarrinhoComponent } from './components/carrinho/carrinho.component';
     RodapeComponent,
     LoginComponent,
     CadastroComponent,
-    SACComponent,
     NavAdmComponent,
     CrudCategoryComponent,
     DialogCategoryComponent,
@@ -62,6 +62,8 @@ import { CarrinhoComponent } from './components/carrinho/carrinho.component';
     ProdutosComponent,
     FilterPipe,
     CarrinhoComponent,
+    DialogFinishbuyComponent,
+    FinishBuyComponent,
 
 
   ],

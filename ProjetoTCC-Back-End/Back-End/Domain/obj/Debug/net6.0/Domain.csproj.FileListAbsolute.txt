@@ -71,4 +71,4 @@ E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Domain\obj\Debug\net6.0\Dom
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Domain\obj\Debug\net6.0\ref\Domain.dll
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Domain\obj\Debug\net6.0\Domain.pdb
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
-F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Domain\bin\Debug\net6.0\ref\Domain.dll
+F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\Domain\obj\Debug\net6.0\refint\Domain.dll

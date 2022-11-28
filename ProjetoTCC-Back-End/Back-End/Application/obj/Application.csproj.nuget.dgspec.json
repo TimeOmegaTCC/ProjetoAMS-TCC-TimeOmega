@@ -10,11 +10,11 @@
         "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj",
         "projectName": "Application",
         "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
         "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -105,11 +105,11 @@
         "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
         "projectName": "Domain",
         "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
         "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -147,7 +147,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -157,11 +157,11 @@
         "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
         "projectName": "InfraData",
         "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
         "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -233,7 +233,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -243,11 +243,11 @@
         "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
         "projectName": "Service",
         "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
         "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -302,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

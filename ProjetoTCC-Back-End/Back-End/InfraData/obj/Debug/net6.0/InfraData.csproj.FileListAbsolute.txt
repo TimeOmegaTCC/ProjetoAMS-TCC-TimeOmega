@@ -99,4 +99,4 @@ E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\InfraData\obj\Debug\net6.0\
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\InfraData\obj\Debug\net6.0\ref\InfraData.dll
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\InfraData\obj\Debug\net6.0\InfraData.pdb
 E:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\InfraData\obj\Debug\net6.0\InfraData.genruntimeconfig.cache
-F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\InfraData\bin\Debug\net6.0\ref\InfraData.dll
+F:\TimeOmega-ProjetoTCC\ProjetoTCC-Back-End\Back-End\InfraData\obj\Debug\net6.0\refint\InfraData.dll

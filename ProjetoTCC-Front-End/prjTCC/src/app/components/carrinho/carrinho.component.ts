@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { CartService } from '../sistema-crud/services/cart.service';
+import { DialogFinishbuyComponent } from './dialog-finishbuy/dialog-finishbuy.component';
 
 @Component({
   selector: 'app-carrinho',
@@ -9,7 +11,7 @@ import { CartService } from '../sistema-crud/services/cart.service';
 export class CarrinhoComponent implements OnInit {
   public products : any = [];
   public grandTotal !: number;
-  constructor(private cartService : CartService) { }
+  constructor(private cartService : CartService, private dialog : MatDialog) { }
 
   ngOnInit(): void {
     this.cartService.getProducts()
@@ -24,5 +26,14 @@ export class CarrinhoComponent implements OnInit {
   emptycart(){
     this.cartService.removeAllCart();
   }
-
+  openDialog() {
+    this.dialog.open(DialogFinishbuyComponent, {
+      width: '30%'
+    }).afterClosed().subscribe(val=>{
+      if(val ==='save'){
+      }
+    })
+  }
 }
+
+

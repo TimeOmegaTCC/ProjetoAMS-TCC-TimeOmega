@@ -9,14 +9,17 @@ import { CarrinhoComponent } from '../carrinho/carrinho.component';
   styleUrls: ['./produtos.component.css']
 })
 export class ProdutosComponent implements OnInit {
-public ProductList : any ;
+ProductList : any ;
 filterCategory: any;
 searchKey:string ="";
 public searchTerm: string = "";
 public searchT = new BehaviorSubject<string>("");
+public carrinhoCompras! : CarrinhoComponent
+
   constructor(private api : ApiService, private cartService : CartService) { }
 
   ngOnInit(): void {
+
     this.api.getProduct()
     .subscribe(res=>{
       this.ProductList = res;
@@ -36,20 +39,20 @@ public searchT = new BehaviorSubject<string>("");
   })
 }
 
-search(event: any) {
-  this.searchTerm = (event.target as HTMLInputElement).value;
-  console.log(this.searchTerm);
-  this.searchT.next(this.searchTerm);
-}
+  search(event: any) {
+    this.searchTerm = (event.target as HTMLInputElement).value;
+    console.log(this.searchTerm);
+    this.searchT.next(this.searchTerm);
+  }
 
-filter(category: string) {
-  this.filterCategory = this.ProductList
-    .filter((a: any) => {
-      if (a.idCategory === category || category === '') {
-        return a;
-      }
-    })
-}
+  filter(category: string) {
+    this.filterCategory = this.ProductList
+      .filter((a: any) => {
+        if (a.idCategory === category || category === '') {
+          return a;
+        }
+      })
+  }
 addtocart(item: any){
   this.cartService.addtoCart(item);
 }

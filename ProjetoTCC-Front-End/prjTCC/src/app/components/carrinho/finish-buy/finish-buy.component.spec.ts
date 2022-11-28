@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SACComponent } from './sac.component';
+import { FinishBuyComponent } from './finish-buy.component';
 
-describe('SACComponent', () => {
-  let component: SACComponent;
-  let fixture: ComponentFixture<SACComponent>;
+describe('FinishBuyComponent', () => {
+  let component: FinishBuyComponent;
+  let fixture: ComponentFixture<FinishBuyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SACComponent ]
+      declarations: [ FinishBuyComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SACComponent);
+    fixture = TestBed.createComponent(FinishBuyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

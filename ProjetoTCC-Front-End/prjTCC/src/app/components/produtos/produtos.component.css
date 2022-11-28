@@ -120,3 +120,16 @@
   top: 0px;
   opacity: 1;
 }
+
+.search-box input {
+  outline: 0;
+  border: none;
+  padding: 10px;
+  background: rgb(223, 222, 222);
+  border-radius: 20px;
+}
+
+.search-box i {
+  position: relative;
+  cursor: pointer;
+}
